@@ -54,7 +54,11 @@ button {
 .dots div {
     width: 10px;
     height: 10px;
-    background-color: black;
+    background-color: rgb(140, 140, 140);
     border-radius: 20px;
-    opacity: 0.3;
+}
+
+.activepoint{
+    opacity: 1;
+    background-color: blue !important;
 }
